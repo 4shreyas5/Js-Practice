@@ -9,3 +9,21 @@ print = (el) => {
 }
 
 arr.forEach(print)
+
+//Map
+let array = [
+    {
+        name:"Shreyas",
+        marks:98
+    },
+    {
+        name:"Jyotendra",
+        marks:99
+    },
+    {
+        name:"Manvi",
+        marks:100
+    }
+]
+
+let gpa = array.map((el) => el.marks/10)
