@@ -42,12 +42,36 @@
 //         console.log("Wrong Input");
 // }
 
-//4
-let str = prompt ("Enter Your String")
+// //4
+// let str = prompt ("Enter Your String")
 
-if ((str[0] == 'A' || str[0] == 'a') && (str.length > 5)){
-    console.log("Golden String")
+// if ((str[0] == 'A' || str[0] == 'a') && (str.length > 5)){
+//     console.log("Golden String")
+// }
+// else{
+//     console.log("Error! Not a Golden string")
+// }
+//5
+let a = prompt("Enter First number");
+let b = prompt("Enter Second number");
+let c = prompt("Enter Third number");
+
+function largest(a,b,c){
+    if (a>b){
+       if (a>c){
+        console.log(a, "is the largest")
+       }
+       else{
+        console.log(c, "is the largest")
+       }
+    }
+    else{
+        if (b>c){
+            console.log(b, "is the largest")
+           }
+           else{
+            console.log(c, "is the largest")
+           }
+    }
 }
-else{
-    console.log("Error! Not a Golden string")
-}
+largest(a,b,c);
